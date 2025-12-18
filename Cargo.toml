@@ -1,0 +1,10 @@
+[package]
+name = "ansimake"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+image = "0.25"
+terminal_size = "0.3"
+clap = { version = "4.4", features = ["derive"] }
+palette = "0.7"
